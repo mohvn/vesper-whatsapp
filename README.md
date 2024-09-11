@@ -1,6 +1,6 @@
 ![Vesper preview](preview.png)
 
-# Vesper on ChatGPT
+# Vesper on WhatsApp
 
 Peppermint and orange flavored dark theme for Whatsapp.
 
