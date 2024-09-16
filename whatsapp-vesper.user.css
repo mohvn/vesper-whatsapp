@@ -76,7 +76,11 @@
 	--tooltip-background: var(--vspr-bg-subtle) !important;
 	--navbar-background: var(--vspr-bg-base) !important;
 	--tooltip-text: var(--vspr-fg-base) !important;
-	--icon-bright-highlight: var(--vspr-accent) !important;
+	--icon-bright-highlight: var(--vspr-accent) !important; 
+	--archived-chat-marker-border: var(--vspr-bg-subtle-hover) !important;
+	--archived-chat-marker-background: var(--vspr-bg-subtle-hover) !important;
+	--drawer-section-background: var(--vspr-bg-base) !important;
+	--drawer-background-deep: var(--vspr-bg-subtle) !important;
 }
 
 .x1a0jr7w {
