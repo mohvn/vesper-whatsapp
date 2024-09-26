@@ -81,6 +81,15 @@
 	--archived-chat-marker-background: var(--vspr-bg-subtle-hover) !important;
 	--drawer-section-background: var(--vspr-bg-base) !important;
 	--drawer-background-deep: var(--vspr-bg-subtle) !important;
+    --butterbar-default-background: var(--vspr-bg-subtle) !important;
+    --butterbar-notification-icon: var(--vspr-accent) !important;
+    --teal-lighter: var(--vspr-accent) !important;
+    --round-icon-background: var(--vspr-accent) !important;
+    --chat-marker-background: var(--vspr-bg-subtle) !important;
+    --chat-marker-border: var(--vspr-bg-subtle) !important;
+    --startup-background: var(--vspr-bg-base) !important;
+    --border-list: var(--vspr-bg-subtle) !important;
+    --border-stronger: var(--vspr-bg-base) !important;
 }
 
 .x1a0jr7w {
