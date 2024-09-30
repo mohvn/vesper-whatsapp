@@ -17,6 +17,7 @@
 
 	/* Gotta copy paste them for some reason. It's fine. */
 	--vspr-bg-base: #101010;
+	--vspr-bg-base-t: #101010e3;
 	--vspr-bg-subtle: #1c1c1c;
 	--vspr-bg-subtle-light: #212121;
 	--vspr-bg-subtle-hover: #282828;
@@ -90,19 +91,14 @@
     --startup-background: var(--vspr-bg-base) !important;
     --border-list: var(--vspr-bg-subtle) !important;
     --border-stronger: var(--vspr-bg-base) !important;
-    --ptt-ooc-background: var(--vspr-bg-subtle) !important;
-    --background-lighter: var(--vspr-bg-subtle) !important;
-    --drawer-background: var(--vspr-bg-base) !important;
-    --panel-background-colored-deeper: var(--vspr-bg-base) !important;
-    --active-tab-marker: var(--vspr-fg-suc) !important;
-    --drawer-gallery-background: var(--vspr-bg-subtle) !important;
-    --media-gallery-thumb-background: var(--vspr-bg-subtle-light) !important;
-    --panel-background: var(--vspr-bg-base) !important;
-    --thumb-border-active: var(--vspr-bg-subtle-hover) !important;
-    --teal: var(--vspr-fg-suc) !important;
-    --background-lightest-hover: --vspr-bg-subtle-hover !important;
-}  
-    
+	--media-viewer-background: var(--vspr-bg-base-t) !important;
+	--panel-input-background: var(--vspr-bg-subtle) !important;
+	--active-tab-marker: var(--vspr-fg-suc) !important;
+	--sticker-button-background: var(--vspr-bg-subtle) !important;
+	--teal: var(--vspr-fg-suc) !important;
+	--border-panel: var(--vspr-bg-base) !important;
+	--progress-background: var(--vspr-bg-base) !important;
+}
 
 .x1a0jr7w {
 	border-right: none;
