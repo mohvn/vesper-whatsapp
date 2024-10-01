@@ -6,128 +6,135 @@
 @author       mohvn
 @license      MIT
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://web.whatsapp.com/") {
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-:root {
+    :root {
 
-	--conversation-panel-background: var(--vspr-bg-base) !important;
-
-
-	/* Gotta copy paste them for some reason. It's fine. */
-	--vspr-bg-base: #101010;
-	--vspr-bg-base-t: #101010e3;
-	--vspr-bg-subtle: #1c1c1c;
-	--vspr-bg-subtle-light: #212121;
-	--vspr-bg-subtle-hover: #282828;
-	--vspr-fg-base: #ffffff;
-	--vspr-fg-subtle: #a0a0a0;
-	--vspr-accent: #ffc799;
-	--vspr-fg-err: #ff8080;
-	--vspr-fg-suc: #99ffe4;
-	--vspr-fg-suc-subtle: #81afa3;
-	--vspr-fg-suc-subtle-hover: #82bbac;
-	--vspr-bg-subtle-transparent: #28282852;
-}
-
-* {
-	font-family: "Inter", sans-serif !important;
-	--conversation-panel-background: var(--vspr-bg-base) !important;
-	--intro-background: var(--vspr-bg-base) !important;
-	--background-default: var(--vspr-bg-base) !important;
-	--splashscreen-startup-background: var(--vspr-bg-base) !important;
-	--incoming-background: var(--vspr-bg-subtle) !important;
-	--incoming-background-rgb: var(--vspr-bg-subtle-light) !important;
-	--dropdown-background: var(--vspr-bg-subtle) !important;
-	--dropdown-background-hover: var(--vspr-bg-subtle-light) !important;
-	--background-default-hover: var(--vspr-bg-subtle-light) !important;
-	--background-default-active: var(--vspr-bg-subtle-hover) !important;
-	--search-container-background: var(--vspr-bg-base) !important;
-	--search-input-container-background: var(--vspr-bg-base) !important;
-	--filters-container-background: var(--vspr-bg-base) !important;
-	--search-input-background: var(--vspr-bg-subtle) !important;
-	--search-input-container-background-active: var(--vspr-bg-base) !important;
-	--unread-marker-background: var(--vspr-accent) !important;
-	--unread-timestamp: var(--vspr-accent) !important;
-	--ptt-green: var(--vspr-fg-suc) !important;
-	--ptt-gray-badge: var(--vspr-bg-subtle-light) !important;
-	--incoming-background-deeper: var(--vspr-bg-subtle-light) !important;
-	--system-message-background: var(--vspr-bg-subtle-light) !important;
-	--avatar-circle-green: var(--vspr-fg-suc) !important;
-	--avatar-circle-green-dark: var(--vspr-fg-suc) !important;
-	--secondary-lighter: var(--vspr-fg-subtle) !important;
-	--system-message-text: var(--vspr-fg-subtle) !important;
-	--panel-header-background: var(--vspr-bg-base) !important;
-	--chat-metaL: var(--vspr-fg-subtle) !important;
-	--filters-item-active-background: var(--vspr-fg-suc) !important;
-	--filters-item-active-color: var(--vspr-bg-subtle) !important;
-	--filters-item-background: var(--vspr-bg-subtle-light) !important;
-	--filters-item-background-hover: var(--vspr-bg-subtle-hover) !important;
-	--filters-item-color: var(--vspr-fg-subtle) !important;
-	--wds-sky-blue-300: var(--vspr-fg-suc) !important;
-	--reactions-tray-background: var(--vspr-bg-subtle) !important;
-	--rich-text-panel-background: var(--vspr-bg-base) !important;
-	--compose-input-background: var(--vspr-bg-subtle) !important;
-	--compose-input-border: var(--vspr-bg-subtle) !important;
-	--unread-bar-background: var(--vspr-bg-subtle-transparent) !important;
-	--unread-background: var(--vspr-bg-subtle-hover) !important;
-	--popup-panel-background: var(--vspr-bg-subtle) !important;
-	--wds-emerald-400: var(--vspr-fg-suc-subtle);
-	--tooltip-background: var(--vspr-bg-subtle) !important;
-	--navbar-background: var(--vspr-bg-base) !important;
-	--tooltip-text: var(--vspr-fg-base) !important;
-	--icon-bright-highlight: var(--vspr-accent) !important; 
-	--archived-chat-marker-border: var(--vspr-bg-subtle-hover) !important;
-	--archived-chat-marker-background: var(--vspr-bg-subtle-hover) !important;
-	--drawer-section-background: var(--vspr-bg-base) !important;
-	--drawer-background-deep: var(--vspr-bg-subtle) !important;
-    --butterbar-default-background: var(--vspr-bg-subtle) !important;
-    --butterbar-notification-icon: var(--vspr-accent) !important;
-    --teal-lighter: var(--vspr-accent) !important;
-    --round-icon-background: var(--vspr-accent) !important;
-    --chat-marker-background: var(--vspr-bg-subtle) !important;
-    --chat-marker-border: var(--vspr-bg-subtle) !important;
-    --startup-background: var(--vspr-bg-base) !important;
-    --border-list: var(--vspr-bg-subtle) !important;
-    --border-stronger: var(--vspr-bg-base) !important;
-	--media-viewer-background: var(--vspr-bg-base-t) !important;
-	--panel-input-background: var(--vspr-bg-subtle) !important;
-	--active-tab-marker: var(--vspr-fg-suc) !important;
-	--sticker-button-background: var(--vspr-bg-subtle) !important;
-	--teal: var(--vspr-fg-suc) !important;
-	--border-panel: var(--vspr-bg-base) !important;
-	--progress-background: var(--vspr-bg-base) !important;
-}
-
-.x1a0jr7w {
-	border-right: none;
-}
-
-._ak1k {
-	border-left: none
-}
-
-.xso031l {
-	border-bottom: none;
-}
+        --conversation-panel-background: var(--vspr-bg-base) !important;
 
 
-._ajyl {
-	border-left: none
-}
+        /* Gotta copy paste them for some reason. It's fine. */
+        --vspr-bg-base: #101010;
+        --vspr-bg-base-t: #101010e3;
+        --vspr-bg-subtle: #1c1c1c;
+        --vspr-bg-subtle-light: #212121;
+        --vspr-bg-subtle-hover: #282828;
+        --vspr-fg-base: #ffffff;
+        --vspr-fg-subtle: #a0a0a0;
+        --vspr-accent: #ffc799;
+        --vspr-fg-err: #ff8080;
+        --vspr-fg-suc: #99ffe4;
+        --vspr-fg-suc-subtle: #81afa3;
+        --vspr-fg-suc-subtle-hover: #82bbac;
+        --vspr-bg-subtle-transparent: #28282852;
+    }
+
+    * {
+        font-family: "Inter", sans-serif !important;
+        --conversation-panel-background: var(--vspr-bg-base) !important;
+        --intro-background: var(--vspr-bg-base) !important;
+        --background-default: var(--vspr-bg-base) !important;
+        --splashscreen-startup-background: var(--vspr-bg-base) !important;
+        --incoming-background: var(--vspr-bg-subtle) !important;
+        --incoming-background-rgb: var(--vspr-bg-subtle-light) !important;
+        --dropdown-background: var(--vspr-bg-subtle) !important;
+        --dropdown-background-hover: var(--vspr-bg-subtle-light) !important;
+        --background-default-hover: var(--vspr-bg-subtle-light) !important;
+        --background-default-active: var(--vspr-bg-subtle-hover) !important;
+        --search-container-background: var(--vspr-bg-base) !important;
+        --search-input-container-background: var(--vspr-bg-base) !important;
+        --filters-container-background: var(--vspr-bg-base) !important;
+        --search-input-background: var(--vspr-bg-subtle) !important;
+        --search-input-container-background-active: var(--vspr-bg-base) !important;
+        --unread-marker-background: var(--vspr-accent) !important;
+        --unread-timestamp: var(--vspr-accent) !important;
+        --ptt-green: var(--vspr-fg-suc) !important;
+        --ptt-gray-badge: var(--vspr-bg-subtle-light) !important;
+        --incoming-background-deeper: var(--vspr-bg-subtle-light) !important;
+        --system-message-background: var(--vspr-bg-subtle-light) !important;
+        --avatar-circle-green: var(--vspr-fg-suc) !important;
+        --avatar-circle-green-dark: var(--vspr-fg-suc) !important;
+        --secondary-lighter: var(--vspr-fg-subtle) !important;
+        --system-message-text: var(--vspr-fg-subtle) !important;
+        --panel-header-background: var(--vspr-bg-base) !important;
+        --chat-metaL: var(--vspr-fg-subtle) !important;
+        --filters-item-active-background: var(--vspr-fg-suc) !important;
+        --filters-item-active-color: var(--vspr-bg-subtle) !important;
+        --filters-item-background: var(--vspr-bg-subtle-light) !important;
+        --filters-item-background-hover: var(--vspr-bg-subtle-hover) !important;
+        --filters-item-color: var(--vspr-fg-subtle) !important;
+        --wds-sky-blue-300: var(--vspr-fg-suc) !important;
+        --reactions-tray-background: var(--vspr-bg-subtle) !important;
+        --rich-text-panel-background: var(--vspr-bg-base) !important;
+        --compose-input-background: var(--vspr-bg-subtle) !important;
+        --compose-input-border: var(--vspr-bg-subtle) !important;
+        --unread-bar-background: var(--vspr-bg-subtle-transparent) !important;
+        --unread-background: var(--vspr-bg-subtle-hover) !important;
+        --popup-panel-background: var(--vspr-bg-subtle) !important;
+        --wds-emerald-400: var(--vspr-fg-suc-subtle);
+        --tooltip-background: var(--vspr-bg-subtle) !important;
+        --navbar-background: var(--vspr-bg-base) !important;
+        --tooltip-text: var(--vspr-fg-base) !important;
+        --icon-bright-highlight: var(--vspr-accent) !important;
+        --archived-chat-marker-border: var(--vspr-bg-subtle-hover) !important;
+        --archived-chat-marker-background: var(--vspr-bg-subtle-hover) !important;
+        --drawer-section-background: var(--vspr-bg-base) !important;
+        --drawer-background-deep: var(--vspr-bg-subtle) !important;
+        --butterbar-default-background: var(--vspr-bg-subtle) !important;
+        --butterbar-notification-icon: var(--vspr-accent) !important;
+        --teal-lighter: var(--vspr-accent) !important;
+        --round-icon-background: var(--vspr-accent) !important;
+        --chat-marker-background: var(--vspr-bg-subtle) !important;
+        --chat-marker-border: var(--vspr-bg-subtle) !important;
+        --startup-background: var(--vspr-bg-base) !important;
+        --border-list: var(--vspr-bg-subtle) !important;
+        --border-stronger: var(--vspr-bg-base) !important;
+        --media-viewer-background: var(--vspr-bg-base-t) !important;
+        --panel-input-background: var(--vspr-bg-subtle) !important;
+        --active-tab-marker: var(--vspr-fg-suc) !important;
+        --sticker-button-background: var(--vspr-bg-subtle) !important;
+        --teal: var(--vspr-fg-suc) !important;
+        --border-panel: var(--vspr-bg-base) !important;
+        --progress-background: var(--vspr-bg-base) !important;
+        --panel-background-deeper: var(--vspr-bg-base) !important;
+        --primary: #c1c1c1ee !important;
+        --desktop-upsell-call-btn: #b0b0b0ee !important;
+        --media-editor-image-caption-input-background: var(--vspr-bg-subtle) !important;
+    }
+
+    .xy80clv {
+        border-left-width: 0px;
+    }
+
+    .x1a0jr7w {
+        border-right: none;
+    }
+
+    ._ak1k {
+        border-left: none
+    }
+
+    .xso031l {
+        border-bottom: none;
+    }
 
 
-._al_c {
-	background-color: var(--vspr-bg-base) !important;
-	border-left: none;
-}
+    ._ajyl {
+        border-left: none
+    }
 
-.dark {
-	--app-background: #101010 !important;
-}
 
-._ak8l {
-	border-top: none;
-}
+    ._al_c {
+        background-color: var(--vspr-bg-base) !important;
+        border-left: none;
+    }
+
+    .dark {
+        --app-background: #101010 !important;
+    }
+
+    ._ak8l {
+        border-top: none;
+    }
 }
