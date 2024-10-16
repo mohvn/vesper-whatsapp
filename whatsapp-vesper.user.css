@@ -23,6 +23,7 @@
         --vspr-fg-base: #ffffff;
         --vspr-fg-subtle: #a0a0a0;
         --vspr-accent: #ffc799;
+        --vspr-accent-hover: #ba9270;
         --vspr-fg-err: #ff8080;
         --vspr-fg-suc: #99ffe4;
         --vspr-fg-suc-subtle: #81afa3;
@@ -101,6 +102,11 @@
         --primary: #c1c1c1ee !important;
         --desktop-upsell-call-btn: #b0b0b0ee !important;
         --media-editor-image-caption-input-background: var(--vspr-bg-subtle) !important;
+        --button-primary-background: var(--vspr-accent) !important;
+        --button-primary-background-hover: var(--vspr-accent-hover) !important;
+        --background-lightest-hover: var(--vspr-bg-subtle-hover) !important;
+        --background-lighter-hover: var(--vspr-bg-subtle-light) !important;
+        --reactions-details-background: var(--vspr-bg-base) !important;
     }
 
     .xy80clv {
