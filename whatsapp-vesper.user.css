@@ -107,7 +107,15 @@
         --background-lightest-hover: var(--vspr-bg-subtle-hover) !important;
         --background-lighter-hover: var(--vspr-bg-subtle-light) !important;
         --reactions-details-background: var(--vspr-bg-base) !important;
+		--WDS-warm-gray-800: var(--vspr-bg-base) !important;
     }
+	
+	.app-wrapper-web ._aigs:not(._as6h) {
+		width: 100%;
+		max-width: none;
+		margin: 0;
+
+	}
 
     .xy80clv {
         border-left-width: 0px;
