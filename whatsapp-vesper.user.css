@@ -7,7 +7,7 @@
 @license      MIT
 ==/UserStyle== */
 @-moz-document url-prefix("https://web.whatsapp.com/") {
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
     :root {
 
@@ -32,7 +32,7 @@
     }
 
     * {
-        font-family: "Inter", sans-serif !important;
+        font-family: "Geist", sans-serif !important;
         --conversation-panel-background: var(--vspr-bg-base) !important;
         --intro-background: var(--vspr-bg-base) !important;
         --background-default: var(--vspr-bg-base) !important;
@@ -108,6 +108,18 @@
         --background-lighter-hover: var(--vspr-bg-subtle-light) !important;
         --reactions-details-background: var(--vspr-bg-base) !important;
 		--WDS-warm-gray-800: var(--vspr-bg-base) !important;
+        --WDS-neutral-gray-900: var(--vspr-bg-base) !important;
+          --WDS-accent-deemphasized: #99ffe430 !important;
+          --WDS-accent: #99ffe4 !important;
+          --WDS-accent-emphasized: #99ffe4 !important;
+          --WDS-background-wash-inset: var(--vspr-bg-base) !important;
+          --WDS-background-wash-plain: var(--vspr-bg-base) !important;
+          --WDS-surface-default: var(--vspr-bg-base) !important;
+          --WDS-content-action-emphasized: var(--vspr-accent) !important;
+          --WDS-content-external-link: var(--vspr-accent) !important;
+          --WDS-persistent-always-branded: var(--vspr-accent) !important;
+          --WDS-green-750: #385a52 !important;
+          --WDS-red-300: var(--vspr-fg-err) !important;
     }
 	
 	.app-wrapper-web ._aigs:not(._as6h) {
